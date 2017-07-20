@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<nav>
+    <!-- Mesmo jeito do ANGULAR1, controller 'pai'-->
+    <!-- RouterLinkActive funciona de acordo com a url, se a url for a correspondente a classe css é ativada-->
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</nav>
+<!--É o elemento que vai exibir as views-->
+<!-- è uma diretiva do RouterModule-->
+<router-outlet></router-outlet>
